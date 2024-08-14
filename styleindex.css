@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #deb887;
+    font-family: "Edu VIC WA NT Beginner";
+}
+h1{
+    text-align: center;
+    padding-top: 35px;
+    display: inline;
+    color: white;
+    padding-left: 40%;
+}
+.main{
+    height: 100px;
+    background-color: chocolate;
+    margin-bottom: 50px;
+}
+.form_section{
+    text-align: center;
+    font-size: 30px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: chocolate;
+}
+button{
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #deb887;
+    border-width: 3px;
+    border-color: chocolate;
+    border-radius: 30px;
+    color: chocolate;
+}
+button:hover{
+    cursor: pointer;
+    background-color:chocolate;
+    color: #deb887;
+}
+footer{
+    margin-top: 25px;
+    height: 50px;
+    background-color: chocolate;
+    text-align: center;
+}
+footer span{
+    color: white;
+}
